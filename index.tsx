@@ -690,7 +690,7 @@ const HostView = ({ onNavigate }: { onNavigate: (v: ViewState) => void }) => {
           <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
             Turn your passion into a business. Host unique experiences for travelers from around the world on GoCrazy.
           </p>
-          <button className="bg-white text-slate-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-200 transition-colors">
+          <button onClick={() => onNavigate('HOME')} className="bg-white text-slate-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-slate-200 transition-colors">
             Get Started
           </button>
        </div>
